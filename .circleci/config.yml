@@ -12,7 +12,7 @@ jobs:
           test_id: 4375
           profile_id: 899
           browser: chrome
-          headless: false
+          headless: true
 workflows:
   test-workflow:
     jobs:
