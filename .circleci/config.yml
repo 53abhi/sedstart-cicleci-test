@@ -8,8 +8,8 @@ jobs:
     steps:
       - cicd/runcloud:    
           api_key: SEDSTART_API_KEY_PROD      
-          project_id: 000 
-          test_id: 1851
+          project_id: 397
+          test_id: 
           profile_id: 800
           browser: chrome
           headless: true
