@@ -11,7 +11,7 @@ jobs:
           project_id: 397
           test_id: 1851
           profile_id: 800
-          browser: chrome
+          browser: 
           headless: true
           environment: "QA"
 workflows:
