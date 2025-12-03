@@ -13,6 +13,7 @@ jobs:
           profile_id: 899
           browser: chrome
           headless: true
+          environment: "QA"
 workflows:
   test-workflow:
     jobs:
