@@ -8,11 +8,11 @@ jobs:
     steps:
       - cicd/runlocal:    
           api_key: SEDSTART_API_KEY_PROD      
-          project_id: 547
-          test_id: 4375
-          profile_id: 899
+          project_id: 418
+          test_id: 1937
+          profile_id: 848
           browser: chrome
-          headless: true
+          environment: QA
 workflows:
   test-workflow:
     jobs:
