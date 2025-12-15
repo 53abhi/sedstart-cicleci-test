@@ -14,8 +14,8 @@ jobs:
             sudo apt-get install -y xvfb
       - cicd/runlocal:    
           api_key: SEDSTART_API_KEY
-          project_id: 
-          suite_id: 363
+          project_id: 398
+          test_id: 
           profile_id: 801
           browser: chrome
           environment: QA
