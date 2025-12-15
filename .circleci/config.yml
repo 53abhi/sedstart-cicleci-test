@@ -16,7 +16,7 @@ jobs:
           api_key: SEDSTART_API_KEY
           project_id: 398
           test_id: 1852
-          profile_id: 
+          profile_id: 000
           browser: safari
           environment: QA
 workflows:
