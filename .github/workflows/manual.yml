@@ -1,0 +1,18 @@
+name: Sedstart
+on:
+  workflow_dispatch:
+jobs:
+ sedstart-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Sedstart
+        uses: sedstart/runcloud@v1
+        with:
+          api_key: 42c49268-69fb-413d-ba04-40dd4ea19230
+          project_id: 398
+          test_id: 1852
+          profile_id: 801
+          browser: chrome
+          environment: QA
+      
+  
