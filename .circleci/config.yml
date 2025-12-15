@@ -15,8 +15,8 @@ jobs:
       - cicd/runlocal:    
           api_key: SEDSTART_API_KEY
           project_id: 398
-          test_id: 000
-          profile_id: 801
+          test_id: 1852
+          profile_id: 
           browser: chrome
           environment: QA
 workflows:
