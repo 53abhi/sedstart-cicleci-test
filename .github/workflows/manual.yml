@@ -5,7 +5,7 @@ jobs:
  sedstart-run:
     runs-on: ubuntu-latest
     steps:
-      - name: Run Sedstart
+      - name: Running Sedstart
         uses: sedstart/runcloud@v1
         with:
           api_key: 42c49268-69fb-413d-ba04-40dd4ea19230
