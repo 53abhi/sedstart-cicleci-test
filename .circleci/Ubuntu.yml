@@ -4,13 +4,13 @@ orbs:
   cicd: sedstart/cicd@dev:1
 
 jobs:
-  test:
+  run-sedstart-local-mac:
     docker:
-      - image: cimg/node:25.2.1
+      - image: cimg/node:20.18
     steps:
       - checkout
       - cicd/runlocal:
-          api_key: SEDSTART_API_KEY_PROD
+          api_key: $SEDSTART_API_KEY_PROD
           project_id: 418
           test_id: 1937
           profile_id: 848
@@ -19,6 +19,6 @@ jobs:
           environment: QA
 
 workflows:
-  test-workflow:
+  main:
     jobs:
-      - test
+      - run-sedstart-local-mac
