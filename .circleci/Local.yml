@@ -8,8 +8,8 @@ jobs:
     steps:
       - cicd/runlocal:    
           api_key: SEDSTART_API_KEY_PROD      
-          project_id: 
-          test_id: 
+          project_id: 418
+          test_id: 1937
           profile_id: 
           browser: chrome
           headless: true
